@@ -1,0 +1,191 @@
+/* Reset some default styles for better consistency */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image:linear-gradient(
+        115deg,
+        rgba(39, 77, 49, 0.89),
+        rgba(0, 238, 222, 0.7)
+      ), url(https://c4.wallpaperflare.com/wallpaper/162/202/528/windmill-netherlands-road-sea-wallpaper-preview.jpg);
+    line-height: 1.6;
+}
+
+header{
+    background: linear-gradient(to bottom, #b38a04, #046018);
+    color: #000000;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding: 2px;
+    margin: 2px;
+    margin-left:120px;
+    margin-top: -50px;
+    float: left;
+    height: 200px;
+    width: 200px;
+
+}
+span{
+    text-shadow: #000000;
+    text-align: left;
+    font-weight: bolder;
+    font-size: 50px;
+    margin-right: 200px;
+    margin-left: -50px;
+}
+
+
+
+nav ul {
+    list-style-type: none;
+    margin-right: 220px;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    margin-left: 25px;
+}
+
+section {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: rgb(186, 202, 218);
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(0, 10, 10) , 0 0 5px rgb(19, 19, 203);
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: linear-gradient(to bottom, #02694a, #ccf5b5);
+    color: #000000;
+    font-size: 14px;
+}
+
+.about{
+    height:300px;
+    width: 300px;
+    margin-left:1197px;
+    margin-top: -170px;
+    margin-bottom: -70px;
+}
+
+.renewable{
+    height:150px;
+    width:150px;
+    margin-top: -150px;
+    margin-left: 1100px;
+    padding-bottom: 10px;
+}
+
+.bio{
+    height:150px;
+    width:150px;
+    margin-top: -90px;
+    margin-left: 1100px;   
+    padding: 10px;
+    display: block;
+}
+
+.foot{
+    height:150px;
+    width:150px;
+    margin-top: -90px;
+    margin-left: 1100px;   
+    padding: 10px;
+    display: inline;
+}
+
+.fos{
+    height:150px;
+    width:150px;
+    margin-top: -50px;
+    margin-left: 1100px;   
+    padding: 10px;
+    display: inline;
+}
+
+.inn{
+    height:150px;
+    width:150px;
+    margin-left: 1100px; 
+    margin-top: -90px;  
+    padding: 0px;
+}
+
+.data{
+    height:400px;
+    width:400px;
+    align-items: center;
+    margin-left: 500px;
+    display:inline;
+    padding: 0px;
+    border: 3px solid black;
+    border-radius: 1vh;
+    padding: 10px 15px;
+}
+
+.cap{
+    text-align: center;
+    margin-top: -40px;
+    color:red;
+    
+}
+
+.cap1{
+    text-align: center;
+    color:red;
+    
+}
+
+.PET{
+    height:150px;
+    width:150px;
+    margin-left: 1100px; 
+    margin-top: -80px;  
+    padding: 0px;
+    border-radius: 1vh;
+}
+
+.kin{
+    height:300px;
+    width:800px;
+    margin-left: 300px; 
+    margin-top: -80px;  
+    padding: 0px;
+    border-radius: 1vh;
+}
